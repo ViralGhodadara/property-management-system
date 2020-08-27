@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    background: rgb(35, 33, 33);
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li a{
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: sans-serif;
+    text-decoration: white;
+    /* background-color: aqua; */
+}
+
+ul li :hover{
+    color: grey;
+}
+
+.mainImage{
+    height: 532px;
+    width: 100%;
+}
+
+.title {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: monospace;
+    font-size: 30px;
+    color: rgb(109, 109, 195);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main {
+    height: 540px;
+    width: 500px;
+    background-color: white;
+}
+
+.box {
+    height: 23px;
+    width: 230px;
+    margin-top: 12px;
+    font-family: monospace;
+}
+
+.txtarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    margin-left: 64px;
+}
+
+.opt {
+    margin-top: -8px;
+    margin-bottom: -3px;
+    font-family: monospace;
+    margin-left: -122px;
+    height: 29px;
+    width: 114px;
+}
+
+.btn {
+    background-color: rgb(109, 109, 195);
+    color: white;
+    height: 20px;
+    width: 108px;
+    height: 30px;
+    border: 2px solid rgb(109, 109, 195);
+    border-radius: 5px;
+    font-family: monospace;
+    margin-left: -125px;
+    cursor: pointer;
+}
+
+.last-para {
+    font-family: monospace;
+    font-size: 15px;
+    margin-left: -115px;
+}
+
+.last-para a{
+    color: black;
+    text-decoration: none;
+}
+
+.last-para a:hover{
+    color: blue;
+}
+
+.error{
+    font-family: monospace;
+    color: brown;
+}
+
+.login-div {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+
+.para {
+    font-family: monospace;
+    color: maroon;
+    margin-top: 20px;
+}
+
+/* side nav bar */
+.w3-sidebar{
+    height:100%;
+    width:200px;
+    background-color:#fff;
+    position:fixed;
+    z-index:1;
+    overflow:auto
+}
+.w3-black, .w3-hover-black:hover{
+    color:rgb(218, 209, 209);
+    background-color:#222;
+}
+.w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{
+    width:100%;
+}
+
+.w3-bar-block .w3-bar-item{
+    width:100%;
+    display:block;
+    padding:8px 16px;
+    text-align:left;
+    border:none;
+    white-space:normal;
+    float:none;
+    outline:0
+}
+
+.myclass {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+.myclass:hover {
+    background-color: grey;
+    color: pink;
+}
+
+.heading {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.section {
+    margin-left: 25%;
+    font-family: monospace;
+    font-size: 15px;
+    /* background-color: beige; */
+}
+
+.detail {
+    background-color: pink;
+    color: black;
+    height: 30%;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+tr td{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.main-edit {
+    height: 450px;
+    width: 500px;
+    background-color: white;
+}
+
+.container-listProperty{
+    margin-top: 20px;
+    height: 550px;
+    width: 70%;
+    background-color: pink;
+    margin: auto;
+}
+
+.box-NameProperty {
+    height: 30px;
+    width: 500px;
+    margin-top: 12px;
+    font-family: monospace;
+    margin-left: 75px;
+}
+
+.main-div-myProperty {
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    overflow-x: scroll;
+    overflow: scroll;
+}
+
+.icon {
+    color: red;
+    font-size: 25px;
+}
+
+.container-editProperty {
+    margin-top: 200px;
+    height: 580px;
+    width: 50%;
+    background-color: pink;
+    margin: auto;
+}
+
+.conatainer-viewProperty {
+    /* background-color: rgb(94, 86, 86); */
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.propertyImg {
+    width: 100%;
+}
+
+.property-title {
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 15px;
+}
+
+.property-price {
+    margin-top: 8px;
+    font-size: 15px;
+    color: red;
+    font-family: monospace;
+}
+
+.other-detail {
+    margin-top: 8px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.viewButton {
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+.viewpropertytitle {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.property {
+    height: 350px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.property_images {
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.property_title {
+    font-family: monospace;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.container-form {
+    height: 300px;
+    width: 500px;
+    background: white;
+}
+
+.main-banner {
+    height: 530px;
+    width: 100%;
+    background-image: url('images/herimg.jpg');
+    margin-top: -16px;
+}
+
+.content {
+    margin-top: 8%;
+    font-size: 37px;
+    margin-left: 105px;
+    color: #ff5555;
+    font-family: verdana;
+    font-style: italic;
+}
+
+.all-property {
+    width: 85%;
+    margin-left: auto;
+}
+
+.contact-button {
+    background: purple;
+    color: white;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 6px;
+}
+
+.container-buyer-detail {
+    /* height: 230px; */
+    padding-bottom: 30px;
+    width: 500px;
+    background: pink;
+}
+
+.paraDet {
+    margin-left: -50px;
+    font-family: monospace;
+} 
+
+.msgBuyserDet {
+    width: 300px;
+}
